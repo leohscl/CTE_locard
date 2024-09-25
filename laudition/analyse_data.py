@@ -1,6 +1,5 @@
 lines =open("./out", 'r').readlines()
 data = ''
-line
 for i, line in enumerate(lines):
     if (i % 2) == 0:
         data += line[10:].strip()
